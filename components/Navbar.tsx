@@ -78,7 +78,7 @@ export default function Navbar() {
               <div className="flex items-center gap-2">
                 <span className="text-xl md:text-2xl font-bold">
                   <span className="text-gray-100">BAGAS</span>
-                  <span className="text-green-400">.</span>
+                  <span className="text-cyan-400">.</span>
                 </span>
               </div>
               {/* Neon glow effect */}
