@@ -221,8 +221,8 @@ export default function AboutSection() {
               <div
                 className="absolute"
                 style={{
-                  top: CENTER - 64,
-                  left: CENTER - 92,
+                  top: CENTER - 70,
+                  left: CENTER - 102,
                 }}
               >
                 {/* Glow behind card */}
