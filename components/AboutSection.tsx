@@ -318,7 +318,7 @@ export default function AboutSection() {
                 className="absolute"
                 style={{ top: CENTER - 70, left: CENTER - 102 }}
               >
-                <div className="absolute -inset-6 bg-gradient-to-r from-cyan-500/25 via-purple-500/25 to-pink-500/25 rounded-2xl blur-2xl" />
+                <div className="absolute -inset-6 bg-linear-to-r from-cyan-500/25 via-purple-500/25 to-pink-500/25 rounded-2xl blur-2xl" />
                 <div className="relative bg-slate-900/85 backdrop-blur-xl border border-slate-600/50 rounded-2xl px-10 py-7 text-center shadow-2xl">
                   <motion.div
                     className="text-3xl font-bold font-mono mb-1.5"
@@ -589,7 +589,7 @@ export default function AboutSection() {
               <span className="text-slate-500 text-xs font-medium uppercase tracking-wider shrink-0">
                 Beyond Coding
               </span>
-              <div className="h-px flex-1 bg-slate-800 min-w-[20px]" />
+              <div className="h-px flex-1 bg-slate-800 min-w-5" />
               <div className="flex items-center gap-4 flex-wrap">
                 {[
                   { icon: "☕", label: "Coffee", color: "#00F0FF" },
